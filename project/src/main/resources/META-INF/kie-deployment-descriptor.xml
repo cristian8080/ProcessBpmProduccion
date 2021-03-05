@@ -12,7 +12,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>reflection</resolver>
-            <identifier>co.com.soaint.bpm.handler.CustomWorkItemHandler</identifier>
+            <identifier>co.com.soaint.bpmhandlerapidigitalizacion.controler.CustomWorkItemHandler</identifier>
             <parameters/>
             <name>MyCustonHandler</name>
         </work-item-handler>

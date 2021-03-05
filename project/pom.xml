@@ -2,12 +2,12 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>co.com.soaint.soadoc.process</groupId>
-  <artifactId>bpm-process-api</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <groupId>com.soadoc</groupId>
+  <artifactId>bpm-digitalizacion-api</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>bpm-process-api</name>
-  <description>BPM process api</description>
+  <name>bpm-digitalizacion-api</name>
+  <description></description>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
@@ -46,14 +46,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>co.com.soaint.soadoc.process</groupId>
-      <artifactId>bpm-model-api</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>co.com.soaint.soadoc.process</groupId>
-      <artifactId>bpm-handler-api</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <groupId>co.com.soaint</groupId>
+      <artifactId>bpm-handler-api-digitalizacion</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
